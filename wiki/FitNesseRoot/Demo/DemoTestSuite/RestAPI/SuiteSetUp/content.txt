@@ -1,0 +1,10 @@
+!*> Generic Imports
+!|Import                      |
+|com.ibm.demo.fitnesse.fixture|
+*!
+
+!*> Create Customer
+!| CustomerSetupFixture|
+|createCustomerWithName|
+|${customerName}       |
+*!

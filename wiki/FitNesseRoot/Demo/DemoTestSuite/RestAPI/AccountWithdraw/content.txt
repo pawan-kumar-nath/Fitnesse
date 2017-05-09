@@ -1,0 +1,8 @@
+!include .Demo.DemoTestSuite.RestAPI.AccountDeposit
+
+
+!|AccountOperationFixture                                                        |
+|customerName   |operation|amount|accountBalance?|message?                       |
+|${customerName}|withdraw |100   |150            |BLANK                          |
+|${customerName}|withdraw |50    |100            |BLANK                          |
+|${customerName}|withdraw |101   |100            |Insufficient balance in account|

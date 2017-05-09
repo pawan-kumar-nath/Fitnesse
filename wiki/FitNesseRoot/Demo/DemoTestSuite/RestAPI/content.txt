@@ -1,0 +1,8 @@
+!1 Rest API
+
+!*> Test Suite Variables
+!define customerName {IBM CUSTOMER}
+*!
+
+!contents -R2 -g -p -f -h
+

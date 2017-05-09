@@ -1,0 +1,7 @@
+[[Debug Test][${PAGE_NAME}?responder=test&remote_debug=true]]
+
+!|AccountOperationFixture                                                                  |
+|customerName   |operation|amount|accountBalance?|message?                                 |
+|${customerName}|deposit  |200   |200            |BLANK                                    |
+|${customerName}|deposit  |50    |250            |BLANK                                    |
+|GOOGLE CUSTOMER|deposit  |100000|0              |Customer [GOOGLE CUSTOMER] does not exist|
