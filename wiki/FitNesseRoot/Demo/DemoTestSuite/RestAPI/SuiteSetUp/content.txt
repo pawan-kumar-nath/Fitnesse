@@ -4,7 +4,9 @@
 *!
 
 !*> Create Customer
-!| CustomerSetupFixture|
-|createCustomerWithName|
-|${customerName}       |
+!| CustomerSetupFixture     |
+|createCustomerWithName     |
+|${customerNameDepositDemo} |
+|${customerNameWithdrawDemo}|
+
 *!

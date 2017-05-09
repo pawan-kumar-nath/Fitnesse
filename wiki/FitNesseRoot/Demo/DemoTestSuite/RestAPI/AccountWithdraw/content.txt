@@ -1,8 +1,12 @@
+!*> Test Page Variables
+!define customerNameDepositDemo {IBM WITHDRAW DEMO CUSTOMER}
+*!
+
 !include .Demo.DemoTestSuite.RestAPI.AccountDeposit
 
 
-!|AccountOperationFixture                                                        |
-|customerName   |operation|amount|accountBalance?|message?                       |
-|${customerName}|withdraw |100   |150            |BLANK                          |
-|${customerName}|withdraw |50    |100            |BLANK                          |
-|${customerName}|withdraw |101   |100            |Insufficient balance in account|
+!|AccountOperationFixture                                                                    |
+|customerName               |operation|amount|accountBalance?|message?                       |
+|${customerNameWithdrawDemo}|withdraw |100   |150            |BLANK                          |
+|${customerNameWithdrawDemo}|withdraw |50    |100            |BLANK                          |
+|${customerNameWithdrawDemo}|withdraw |101   |100            |Insufficient balance in account|

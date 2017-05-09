@@ -1,7 +1,9 @@
 !1 Rest API
 
 !*> Test Suite Variables
-!define customerName {IBM CUSTOMER}
+!define customerNameDepositDemo {IBM DEPOSIT DEMO CUSTOMER}
+!define customerNameWithdrawDemo {IBM WITHDRAW DEMO CUSTOMER}
+
 *!
 
 !contents -R2 -g -p -f -h

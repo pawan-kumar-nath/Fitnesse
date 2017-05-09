@@ -1,5 +1,6 @@
 !*> Tear Down
-!| CustomerSetupFixture|
-|deleteCustomerWithName|
-|${customerName}       |
+!| CustomerSetupFixture     |
+|deleteCustomerWithName     |
+|${customerNameDepositDemo} |
+|${customerNameWithdrawDemo}|
 *!
